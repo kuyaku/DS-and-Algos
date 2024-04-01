@@ -1,4 +1,8 @@
-// given is the binary tree, we have to find the number of pairs violating the propery of binary tree
+//https://www.geeksforgeeks.org/problems/pairs-violating-bst-property--212515/1
+
+//[MEDIUM]
+
+// given is the binary tree, we have to find the number of pairs violating the property of binary tree
 // properties of binary tree:
 // Every node is greater than its left child and less than its right child
 // Every node is greater than the maximum value in its left subtree and less than the minimum value in its right subtree
