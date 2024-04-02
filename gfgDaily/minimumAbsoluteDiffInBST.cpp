@@ -9,6 +9,16 @@
 // sol2: just store the last, and find the min absolute diff: SC: O(1)
 // TC (both): O(N), each node is visited once
 
+#include <bits/stdc++.h>
+
+using namespace std;
+
+
+struct Node {
+    Node *left = nullptr;
+    Node *right = nullptr;
+    int data = 0;
+};
 class Solution
 {
     private:

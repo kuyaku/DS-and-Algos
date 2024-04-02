@@ -21,6 +21,16 @@
 // TC: N * (log(N)), since merge sort is used
 
 
+#include <bits/stdc++.h>
+
+using namespace std;
+
+struct Node {
+    Node *left = nullptr;
+    Node *right = nullptr;
+    int data = 0;
+};
+
 class Solution {
     private:
     void inorderTraversal(Node *root, vector<int> &inorder) {

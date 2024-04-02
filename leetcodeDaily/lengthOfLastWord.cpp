@@ -4,6 +4,11 @@
 
 // given a string, consisting of words and spaces, return the length of the last word in the string
 
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
 class Solution {
 public:
     int lengthOfLastWord(string s) {
